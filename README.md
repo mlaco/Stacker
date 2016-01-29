@@ -28,6 +28,8 @@ stacker.add_dmnos(20)
 stacker.d_rel 0, 20 => 3.597
 ```
 
+Stacker builds the stack by taking the previous stack and placing it on top of another domino (see "The Math(s)"). At each step, it shifts the stack as far over as possible, within a parameter `eps`, without allowing the stack to fall. The smaller `eps`, the more efficiently the stack will give you displacement for each added domino.
+
 ## The Math(s)
 
 It's all about center of mass. If you look at the top _n_ dominoes, they won't fall of the domino below them as long as their center of mass is above it.
