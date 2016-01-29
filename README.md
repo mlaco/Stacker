@@ -1,6 +1,4 @@
 # Stacker
-Experimental Ruby domino stacker
-
 Live out all your wildest object-stacking fantasies.
 
       <----- d ----->
