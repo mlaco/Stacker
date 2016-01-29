@@ -13,6 +13,12 @@ class Stacker
   def s= s
     @s = s
   end
+  
+  def add_dmnos num
+    num.times do
+      add_dmno
+    end
+  end
 
   def add_dmno
     i = @s.size
