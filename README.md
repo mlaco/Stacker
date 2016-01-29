@@ -24,7 +24,7 @@ stacker = Stacker.new
 # Add some dominoes to the stack
 stacker.add_dmnos(20)
 
-# Behold the horizontal distance of the top domino
+# Behold the horizontal distance of the top domino, in half-domino widths
 stacker.d_rel 0, 20 => 3.597
 ```
 
