@@ -7,7 +7,7 @@ class Stacker
     @s = [0.0]
     @l = [0.0]
     @eps = eps || 0.0000001
-    @d_rel_memo = {}
+    @d_top_memo = []
   end
   
   def s= s
@@ -55,6 +55,7 @@ class Stacker
     d = @s[0..i].reduce do |a,b|
       a + b
     end
+    # @d_top_memo[i] = d || 0.0
     d || 0.0
   end
   

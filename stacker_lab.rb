@@ -2,8 +2,8 @@ require_relative "./stacker"
 
 size = 0
 check_size = 0
-check_size_inc = 10
-max_size = 600
+check_size_inc = 1
+max_size = 50
 data = []
 
 s = Stacker.new
@@ -22,3 +22,11 @@ end
 
 tf = Time.now
 p "Took #{tf - ti} seconds"
+puts "\r" * 5
+
+w = 6
+space = " "
+dmno = "*"*2*w
+data.each do |datum|
+  puts space*((datum*w).round) + dmno + "\r"
+end
