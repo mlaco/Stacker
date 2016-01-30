@@ -1,14 +1,23 @@
 # Stacker
 Live out all your wildest object-stacking fantasies.
 
-      <----- d ----->
-               [    ]  ^
-             [    ]    |
-           [    ]      |
-         [    ]        h
-       [    ]          |
-      [    ]           |
-     [    ]            v
+      <---------- d ------------>
+      
+      ************                  ^
+            ************            |
+              ************          |
+                ************        |
+                 ************       |
+                 ************       |
+                  ************      h
+                  ************      |
+                   ************     |
+                   ************     |
+                   ************     |
+                    ************    |
+                    ************    |
+                    ************    |
+                    ************    v
 
 
 It is physically possible to create a stack of identical objects such that the top object is an arbitrary horizontal distance (d) away from the base. Really! However far you want the top to be from the base, it can be accomplished! 7 domino widths, 1 meter, 1 kilometer, a lightyear, it can be done! Assuming that you have a large enough space with uniform gravity, no wind or other disturbances, and a very steady hand...
