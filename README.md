@@ -1,7 +1,7 @@
 # Stacker
 Live out all your wildest object-stacking fantasies.
 
-      <---------- d ------------>
+                  <----- d ----->
       
       ************                  ^
             ************            |
