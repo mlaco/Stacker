@@ -8,6 +8,8 @@ It is physically possible to create a stack of identical objects such that the t
 
 ## Usage
 
+For the most instant gratification, just type `$ ruby stacker_lab.rb` on your command line!
+
 ```ruby
 # Create a new Stacker
 stacker = Stacker.new
