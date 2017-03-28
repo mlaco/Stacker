@@ -26,5 +26,3 @@ Stacker builds the stack by taking the previous stack and placing it on top of a
 It's all about center of mass. If you look at the top _n_ dominoes, they won't fall of the domino below them as long as their center of mass is above it.
 
 While you wouldn't build a stack from the top, its easiest to do the math if you imagine adding new domino to the bottom, rather than the top. This is because if you do it this way, then the new domino doesn't affect the rest, since it's below them. If you added it to the top, you would have to shift all the dominos below in order to keep the stack stable.
-
-_(More to follow...)_
